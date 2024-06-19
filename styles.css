@@ -6,6 +6,10 @@
     font-family:"Be Vietnam Pro",sans-serif;
     scroll-behavior:smooth;
 }
+html,body{
+    overflow-x:hidden;
+    width:100%;
+}
 :root{
     --bgOrange:#e84949;
 }
@@ -451,7 +455,8 @@ a{
     background-image:url(Project4.png);
 }
 
-@media (max-width:1200px) {
+@media (max-width:1500px) {
+    
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
