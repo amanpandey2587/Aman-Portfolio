@@ -295,7 +295,7 @@ a{
     background-color:rgb(231,231,231);
      margin-top:4rem; 
      /* display:flex; */
-    /* margin-left:4rem; */
+    margin-left:4rem;
 }
 .page-header{
     color:var(--bgOrange);
@@ -305,7 +305,7 @@ a{
 }
 
 .project-container{
-    /* max-width:1000px; */
+    max-width:1000px;
     width:98%;
     padding:5rem 0;
 
