@@ -152,9 +152,7 @@ a{
     border:solid 3px var(--bgOrange);
     color:black;
 }
-/* #btn-bottom{
-    display:none;
-} */
+
 
 .hero-section-right{
     width:100%;
@@ -287,12 +285,16 @@ a{
     justify-content: space-between;
     margin-top:5rem;
     padding:2rem 1rem;
+    max-width:80%;
 }
 .project-section{
     background-color:rgb(231,231,231);
      margin-top:4rem; 
+    /* margin-left:50%; */
+    /* margin-right:50% */
      /* display:flex; */
     /* margin-left:4rem; */
+    /* max-width:80%; */
 }
 .page-header{
     color:var(--bgOrange);
@@ -303,9 +305,9 @@ a{
 
 .project-container{
     max-width:1000px;
-    width:98%;
+    width:85%;
     padding:5rem 0;
-    /* margin-left:40%; */
+    margin-left:80%;
     /* margin-right:60%; */
     overflow-x:hidden;
     display:flex;
@@ -371,7 +373,7 @@ a{
     opacity:1; 
 }
 .project-number-left{/*left wali slide ke liye*/
-    right:9rem;
+    right:6rem;
     top:-3rem;
 } 
 .project-number-right{/*right wali slide ke liye*/
@@ -395,7 +397,7 @@ a{
 } 
 .project-content-left{
     align-items:left;
-    left:50%;
+    left:30%;
 }
 .project-content-right{
     right:10%;
@@ -437,19 +439,21 @@ a{
     color:var(--bgOrange);
 }
 #project1{
-    margin-left:9.3rem;
+    margin-left:12rem;
     background-image:url(Project1.png);
 }
 #project2{  
     /* margin-left:200px; */
+    margin-left:1rem;
     background-image:url(Project2.png);
 }
 #project3{
-    margin-left:9.3rem;
+    margin-left:12rem;
     background-image:url(Project3.png);
 }
 #project4{
     /* margin-left:200px; */
+    margin-right:1rem;
     background-image:url(Project4.png);
 }
 
@@ -1014,6 +1018,6 @@ footer{
 }
 @media (min-width: 1024px) {
     .project-card {
-        width: 80%;
+        width: 90%; /* Adjust width for larger screens */
     }
 }
