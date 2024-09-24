@@ -5,10 +5,7 @@
     box-sizing:border-box;
     font-family:"Be Vietnam Pro",sans-serif;
     scroll-behavior:smooth;
-}
-html,body{
     overflow-x:hidden;
-    width:100%;
 }
 :root{
     --bgOrange:#e84949;
@@ -295,7 +292,7 @@ a{
     background-color:rgb(231,231,231);
      margin-top:4rem; 
      /* display:flex; */
-    margin-left:4rem;
+    /* margin-left:4rem; */
 }
 .page-header{
     color:var(--bgOrange);
@@ -308,7 +305,8 @@ a{
     max-width:1000px;
     width:98%;
     padding:5rem 0;
-
+    /* margin-left:40%; */
+    /* margin-right:60%; */
     overflow-x:hidden;
     display:flex;
     flex-direction:column;
@@ -456,7 +454,6 @@ a{
 }
 
 @media (max-width:1500px) {
-    
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
@@ -1017,6 +1014,6 @@ footer{
 }
 @media (min-width: 1024px) {
     .project-card {
-        width: 90%; /* Adjust width for larger screens */
+        width: 80%;
     }
 }
