@@ -280,21 +280,26 @@ a{
     }
 }
 .project-container{
+    margin-left:14rem;
+    /* margin-right:auto; */
+    width:100%;
+    /* padding:5rem 0; */
+    /* margin-left:80%; */
+    /* margin-right:60%; */
+    overflow-x:hidden;
+    display:flex;
+    flex-direction:column;
+    gap:7rem;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin-top:5rem;
     padding:2rem 1rem;
-    max-width:80%;
+    /* max-width:80%; */
 }
 .project-section{
     background-color:rgb(231,231,231);
      margin-top:4rem; 
-    /* margin-left:50%; */
-    /* margin-right:50% */
-     /* display:flex; */
-    /* margin-left:4rem; */
-    /* max-width:80%; */
 }
 .page-header{
     color:var(--bgOrange);
@@ -303,19 +308,9 @@ a{
     padding-top:30px;
 }
 
-.project-container{
-    max-width:1000px;
-    width:85%;
-    padding:5rem 0;
-    margin-left:80%;
-    /* margin-right:60%; */
-    overflow-x:hidden;
-    display:flex;
-    flex-direction:column;
-    gap:7rem;
-}
+
 .project-card{
-    width:100%;/*Remember it*/
+    width:100%;
     height:auto;
     background-image:url(Project1.png);
     background-size:cover;
@@ -327,7 +322,9 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;   
+    margin-bottom: 20px;  
+    margin-left:auto;
+    margin-right:auto; 
 }
 .project-card::after{
     content:"";
@@ -439,22 +436,22 @@ a{
     color:var(--bgOrange);
 }
 #project1{
-    margin-left:12rem;
-    background-image:url(Project1.png);
+    margin-right:2rem;
+    background-image:url(devTracer.png);
 }
 #project2{  
     /* margin-left:200px; */
     margin-left:1rem;
-    background-image:url(Project2.png);
+    background-image:url(PRJ_CARE.png);
 }
 #project3{
     margin-left:12rem;
-    background-image:url(Project3.png);
+    background-image:url(passwordGenerator.png);
 }
 #project4{
     /* margin-left:200px; */
     margin-right:1rem;
-    background-image:url(Project4.png);
+    background-image:url(Weather.png);
 }
 
 @media (max-width:1500px) {
