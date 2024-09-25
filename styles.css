@@ -283,6 +283,7 @@ a{
     margin-left:14rem;
     /* margin-right:auto; */
     width:100%;
+    min-height:70%;
     /* padding:5rem 0; */
     /* margin-left:80%; */
     /* margin-right:60%; */
@@ -311,7 +312,7 @@ a{
 
 .project-card{
     width:100%;
-    height:auto;
+    min-height:25rem;
     background-image:url(Project1.png);
     background-size:cover;
     /* background-repeat:no-repeat; */
@@ -329,10 +330,6 @@ a{
 .project-card::after{
     content:"";
     position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
     background-color:#1f1f1f9a;
     z-index:0;
     /* transform:scaleX(1); */
@@ -383,7 +380,7 @@ a{
     flex-direction:column;
     color:white;
     bottom:20%;
-    font-size:1rem;
+    font-size:1.5rem;
     padding:2em;
     z-index:5;
     gap:1em;
@@ -440,17 +437,15 @@ a{
     background-image:url(devTracer.png);
 }
 #project2{  
-    /* margin-left:200px; */
-    margin-left:1rem;
+    margin-left:2rem;
     background-image:url(PRJ_CARE.png);
 }
 #project3{
-    margin-left:12rem;
+    margin-right:2rem;
     background-image:url(passwordGenerator.png);
 }
 #project4{
-    /* margin-left:200px; */
-    margin-right:1rem;
+    margin-left:2rem;
     background-image:url(Weather.png);
 }
 
@@ -706,315 +701,4 @@ footer{
 .icon-wrapper{
     display:flex;
     gap:1rem;
-}
-
-/* Tablets and large mobile phones (768px and below) */
-@media (max-width: 768px) {
-    .contactus-heading{
-        font-size:4rem;
-    }
-    .contactus-subheading{
-        font-size:2rem;
-    }
-    .faded-text{
-        font-size:4rem;
-        margin:2.8rem;
-    }
-    #project1,#project3{
-        margin:auto;
-    }
-        .page-header {
-          padding-top: 30px;
-          color: var(--bgOrange);
-          text-align: center;
-          font-size: 40px;
-        }
-        .project-container {
-          padding: 5px;
-          margin: 10px;
-          gap: 60px;
-        }
-        .project-card {
-          width: 100%;
-          height: 18rem;
-        }
-        .project-card {
-          background-size: cover;
-          background-position: center;
-        }
-        .project-content {
-          scale: 0.5;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          top: 0;
-        }
-        .project-content-left {
-          left: 0;
-        }
-        .project-heading {
-          font-size: 40px;
-          width: 100%;
-        }
-        .project-sub-heading {
-          width: 100%;
-        }
-        #project2 {
-          margin-left: 0;
-        }
-        #project4 {
-          margin-left: 0;
-        }
-        .project-skill-container {
-          width: 100%;
-        }
-        .project-skill {
-          width: 5px;
-        }
-        .project-card:hover .project-number {
-          display: none;
-        }
-        .project-card:hover .project-content {
-          scale: 0.55;
-        }
-      
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-items {
-        flex-direction: column;
-        width: 100%;
-        text-align: left;
-    }
-
-    .nav-items div {
-        margin-bottom: 10px;
-    }
-
-    
-    .skill-container-left,
-    .skill-container-right {
-        max-width: 50%;
-        /* text-align: center; */
-    }
-
-    .skills-logo {
-        width: 35px;
-        height: 35px;
-    }
-
-    .btn-pink {
-        padding: 10px 15px;
-        font-size: 1rem;
-    }
-}
-/* Mobile phones (480px and below) */
-@media (max-width: 480px) {
-    #project1,#project3{
-        margin:auto;
-        align-self: center;
-        justify-self:center;
-    }
-    .hero-section-heading {
-        font-size: 1.8rem;
-    }
-
-    .hero-section-sub-heading {
-        font-size: 1.2rem;
-    }
-
-    .hero-section-description {
-        font-size: 1rem;
-    }
-
-    .btn-pink {
-        padding: 8px 12px;
-        font-size: 0.9rem;
-    }
-
-    
-        .page-header {
-          padding-top: 30px;
-          color: var(--bgOrange);
-          text-align: center;
-          font-size: 40px;
-        }
-        .project-container {
-          padding: 5px;
-          margin: 10px;
-          gap: 60px;
-        }
-        .project-card {
-          width: 100%;
-          height: 18rem;
-        }
-        .project-card {
-          background-size: cover;
-          background-position: center;
-        }
-        .project-content {
-          scale: 0.5;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          top: 0;
-        }
-        .project-content-left {
-          left: 0;
-        }
-        .project-heading {
-          font-size: 40px;
-          width: 100%;
-        }
-        .project-sub-heading {
-          width: 100%;
-        }
-        #project2 {
-          margin-left: 0;
-        }
-        #project4 {
-          margin-left: 0;
-        }
-        .project-skill-container {
-          width: 100%;
-        }
-        .project-skill {
-          width: 70px;
-        }
-        .project-card:hover .project-number {
-          display: none;
-        }
-        .project-card:hover .project-content {
-          scale: 0.55;
-        }
-      
-
-#skills {
-        flex-direction: row;
-        align-items: center;
-        text-align: center;
-    }
-
-    .skills-logo {
-        width: 30px;
-        height: 30px;
-    }
-
-    .skill-heading {
-        font-size: 1.5rem;
-    }
-
-    .skill-subheading {
-        font-size: 0.9rem;
-    }
-
-    .formfield {
-        font-size: 0.9rem;
-        padding: 8px;
-    }
-
-    .formfield-textarea {
-        font-size: 0.9rem;
-        padding: 8px;
-    }
-
-    .submit-icon {
-        margin-left: 5px;
-    }
-    .contactus-heading{
-        font-size:4rem;
-    }
-    .contactus-subheading{
-        font-size:3rem;
-    }
-}
-
-/* Small laptops (1024px and below) */
-@media (max-width: 1024px) {
-    .hero-section {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
-    }
-
-    .hero-section-left,
-    .hero-section-right {
-        max-width: 100%;
-    }
-
-    .hero-section-heading {
-        font-size: 2rem;
-    }
-
-    .hero-section-sub-heading {
-        font-size: 1.5rem;
-    }
-    .project-container {
-        padding: 0.4rem;
-        margin: 0.63rem;
-        gap: 60px;
-      }
-      .project-card {
-        width: 100%;
-        height: 18rem;
-      }
-      .project-card {
-        background-size: cover;
-        background-position: center;
-      }
-      .project-content {
-        scale: 0.5;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        top: 0;
-      }
-      .project-content-left {
-        left: 0;
-      }
-      .project-heading {
-        font-size: 2.5rem;
-        width: 100%;
-      }
-      .project-sub-heading {
-        width: 100%;
-      }
-      #project2 {
-        margin-left: 0;
-      }
-      #project4 {
-        margin-left: 0;
-      }
-      .project-skill-container {
-        width:60%;
-      }
-      .project-skill {
-        width:4%;
-        height:2px;
-      }
-      .project-card:hover .project-number {
-        display: none;
-      }
-      .project-card:hover .project-content {
-        scale: 0.55;
-      }
-    
-
-    
-
-    .skill-container-right {
-        justify-content: center;
-    }
-
-    .skills-logo {
-        width: 2rem;
-        height: 2rem;
-    }
-}
-@media (min-width: 1024px) {
-    .project-card {
-        width: 90%; /* Adjust width for larger screens */
-    }
 }
